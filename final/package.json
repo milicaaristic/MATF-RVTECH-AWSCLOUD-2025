@@ -1,8 +1,8 @@
 {
-  "name": "9---dynamodb",
+  "name": "rvtech-awscloud-final",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Final project: LocalStack + Lambda + DynamoDB + Web",
+  "main": "syncOCMdata.js",
   "scripts": {
     "deploy-frontend": "S3_BUCKET_NAME=${npm_config_s3_bucket_name:-punjaci-website} && awslocal s3 sync ./web s3://$S3_BUCKET_NAME",
     "deploy-frontend-fixed-bucket": "awslocal s3 sync ./web s3://punjaci-website",
